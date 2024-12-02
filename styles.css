@@ -1,0 +1,70 @@
+@font-face {
+    font-family: MS Sans;
+    src: url(font/MS\ Sans\ Serif\ 8pt.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.first-wp {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    max-width: 900px;
+    font-family: "MS Sans", sans-serif;
+    border: 3px solid gray;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.search-bar p {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    font-family: "MS Sans", sans-serif;
+}
+
+.web-search,
+.web-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.web-results {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    max-height: 60vh;
+    overflow-y: scroll;
+    position: relative;
+}

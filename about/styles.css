@@ -1,0 +1,89 @@
+@font-face {
+    font-family: MS Sans;
+    src: url(../font/MS\ Sans\ Serif\ 8pt.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    height: 85vh; 
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    border: 3px solid gray;
+    background-color: #fff;
+    position: relative;
+    top: -20px;
+    align-items: center; 
+}
+
+.about-header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+#about-image {
+    width: 120px; 
+    height: auto; 
+}
+
+.about-text {
+    text-align: center; 
+}
+
+#about-title {
+    margin-bottom: 10px;
+}
+
+#about-description {
+    margin-top: 0;
+}
+
+#about-last-updated {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-info-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    width: 100%; 
+    max-width: 800px;
+    align-items: center; 
+}
+
+.about-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    gap: 10px;
+}
+
+.about-info {
+    margin-bottom: 10px;
+}
+
+.about-content {
+    margin-top: 0;
+}
