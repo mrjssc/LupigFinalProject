@@ -1,89 +1,117 @@
-@font-face {
-    font-family: MS Sans;
-    src: url(../font/MS\ Sans\ Serif\ 8pt.ttf);
+@font-face { 
+    font-family: Shonar;
+    src: url(../font/Shonar\ Bangla\ Regular.ttf);
 }
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body, html {
     height: 100%;
     width: 100%;
     margin: 0;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
 }
 
-.about-page {
+.first-wp {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
-    gap: 20px; 
-    height: 85vh; 
+    height: 85vh;
     width: 100%;
     max-width: 900px;
+    border: 10px solid #800000;
     padding: 20px;
-    border: 3px solid gray;
     background-color: #fff;
-    position: relative;
-    top: -20px;
-    align-items: center; 
 }
 
-.about-header {
+header {
     display: flex;
-    flex-direction: column; 
     align-items: center; 
-    gap: 10px; 
-}
-
-#about-image {
-    width: 120px; 
-    height: auto; 
-}
-
-.about-text {
-    text-align: center; 
-}
-
-#about-title {
-    margin-bottom: 10px;
-}
-
-#about-description {
-    margin-top: 0;
-}
-
-#about-last-updated {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.about-info-container {
-    display: flex;
-    flex-direction: column; 
     gap: 20px; 
-    width: 100%; 
-    max-width: 800px;
-    align-items: center; 
+    width: 100%;
 }
 
-.about-info-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    text-align: center;
-    gap: 10px;
-}
-
-.about-info {
-    margin-bottom: 10px;
+h1#about-title {
+    font-weight: bold;
+    font-family: 'Shonar', serif;
+    margin-bottom: 0;  
+    margin-left: 45px;
 }
 
 .about-content {
-    margin-top: 0;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;  
+    width: 100%;
+    justify-content: center;
 }
+
+.image-and-below {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.about-image, .extra-image {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.extra-image {
+    margin-top: 5px;
+}
+
+.below-text, .side-text {
+    max-width: 250px;
+    word-wrap: break-word;
+    padding: 5px;
+    margin: 5px;
+}
+
+.below-text p, .side-text p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.about-name {
+    margin: 20px 0;
+}
+
+.about-description {
+    margin-bottom: 5px;
+}
+
+.side-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.side-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.side-box-1, .side-box-2 {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
