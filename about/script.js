@@ -62,15 +62,4 @@ document.addEventListener('DOMContentLoaded', () => {
         info.style.marginTop = '5px';
         info.style.textAlign = "center";
     });
-
-    const images = document.querySelectorAll('.about-image, .extra-image');
-    images.forEach(image => {
-        image.style.transition = 'transform 0.3s ease-in-out';  
-        image.addEventListener('mouseenter', () => {
-            image.style.transform = 'rotate(15deg)'; 
-        });
-        image.addEventListener('mouseleave', () => {
-            image.style.transform = 'rotate(0deg)'; 
-        });
-    });
 });
