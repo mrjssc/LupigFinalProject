@@ -224,7 +224,7 @@ document.querySelector('button').addEventListener('click', function handleClick(
         });
     }
     
-    addSearchResult('maiwebarchive | about page', 'Maria Jessica J. Lupig - A dedicated IT student with a knack for solving problems, writing clean code, and occasionally asking my computer to “please cooperate.”', './about/index.html');
+    addSearchResult('maiwebarchive | about page', 'FOCUS ON: Maria Jessica J. Lupig - Stressed Junior - She balances projects, deadlines, and coffee consumption like a pro (or at least trying). She views stress as another word for growth to cope...', './about/index.html');
     addSearchResult('maiwebarchive | skills page', 'Description for projects page.', '#');
     addSearchResult('maiwebarchive | projects page', 'Description for projects page.', '#');
     addSearchResult('maiwebarchive | contact page', 'Description for contact page.', '#');
