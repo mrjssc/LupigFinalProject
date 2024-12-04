@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const aboutPage = document.querySelector('.first-wp');
+    const aboutPage = document.querySelector('.second-wp');
     const aboutTitle = document.getElementById('about-title');
-    const allText = document.querySelectorAll('.first-wp *:not(#about-title)');
+    const allText = document.querySelectorAll('.second-wp *:not(#about-title)');
 
     aboutPage.style.boxShadow = '2px 2px 5px rgba(0, 0, 0, 0.1)';
     aboutTitle.style.fontFamily = '"Shonar", serif';
