@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const aboutPage = document.querySelector('.first-wp'); 
+    const aboutPage = document.querySelector('.first-wp');
     const aboutTitle = document.getElementById('about-title');
-    const allText = document.querySelectorAll('.first-wp *:not(#about-title)'); 
+    const allText = document.querySelectorAll('.first-wp *:not(#about-title)');
 
     aboutPage.style.boxShadow = '2px 2px 5px rgba(0, 0, 0, 0.1)';
     aboutTitle.style.fontFamily = '"Shonar", serif';
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         box.style.textAlign = 'center';
         box.style.boxShadow = '2px 2px 5px rgba(0, 0, 0, 0.1)';
     });
-    
+
     const sideBox1 = document.querySelector('.side-box-1');
     if (sideBox1) {
         sideBox1.style.backgroundColor = '#c79b3a';
@@ -61,5 +61,15 @@ document.addEventListener('DOMContentLoaded', () => {
         sideMainTitle.style.color = 'black';
         sideMainTitle.style.fontWeight = 'bold';
         sideMainTitle.style.fontSize = '35px';
+    }
+
+    const aboutContent = document.querySelector('.about-content');
+    const sideText = document.querySelector('.side-text');
+    const sideBoxesContainer = document.querySelector('.side-boxes');
+
+    if (aboutContent && sideText && sideBoxesContainer) {
+        const divider = document.createElement('div');
+        divider.classList.add('divider');
+        aboutContent.insertBefore(divider, sideBoxesContainer);
     }
 });
