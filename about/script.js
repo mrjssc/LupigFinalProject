@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     aboutTitle.style.fontFamily = '"Shonar", serif';
     aboutTitle.style.color = 'black';
     aboutTitle.style.fontWeight = 'bold';
-    aboutTitle.style.fontSize = '35px';
+    aboutTitle.style.fontSize = '40px';
 
     allText.forEach(element => {
         element.style.fontFamily = 'Arial, sans-serif';
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         box.style.textAlign = 'center';
         box.style.boxShadow = '2px 2px 5px rgba(0, 0, 0, 0.1)';
     });
-
+    
     const sideBox1 = document.querySelector('.side-box-1');
     if (sideBox1) {
         sideBox1.style.backgroundColor = '#c79b3a';
@@ -47,19 +47,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const sideTitles = document.querySelectorAll('.side-title');
     sideTitles.forEach(title => {
-        title.style.fontWeight = 'bold';
-        title.style.fontSize = '18px';
+        title.style.fontWeight = 'bolder';
+        title.style.fontSize = '16px';
         title.style.marginBottom = '10px';
         title.style.color = '#000991';
         title.style.textTransform = 'uppercase';
+        title.style.fontStyle = 'italic';
     });
 
-    const sideInfos = document.querySelectorAll('.side-info');
-    sideInfos.forEach(info => {
-        info.style.fontSize = '14px';
-        info.style.color = '#333';
-        info.style.lineHeight = '1.3';
-        info.style.marginTop = '5px';
-        info.style.textAlign = "center";
-    });
+    const sideMainTitle = document.getElementById('sidemain-title');
+    if (sideMainTitle) {
+        sideMainTitle.style.fontFamily = '"Shonar", serif';
+        sideMainTitle.style.color = 'black';
+        sideMainTitle.style.fontWeight = 'bold';
+        sideMainTitle.style.fontSize = '35px';
+    }
 });
