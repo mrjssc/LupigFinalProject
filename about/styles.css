@@ -26,7 +26,7 @@ body, html {
     height: 85vh;
     width: 100%;
     max-width: 900px;
-    border: 10px solid #800000;
+    border: 12px solid #800000;
     padding: 20px;
     background-color: #fff;
 }
@@ -43,6 +43,12 @@ h1#about-title {
     font-family: 'Shonar', serif;
     margin-bottom: 0;  
     margin-left: 45px;
+}
+
+#sidemain-title {
+    font-weight: bold;
+    font-family: 'Shonar', serif;
+    margin-bottom: 0;  
 }
 
 .about-content {
@@ -104,6 +110,9 @@ h1#about-title {
     width: 200px;
     margin-left: 20px;
     align-items: center;
+    justify-content: flex-start;  
+    height: auto;  
+    margin-top: 0; 
 }
 
 .side-box-1, .side-box-2 {
@@ -113,5 +122,3 @@ h1#about-title {
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-
