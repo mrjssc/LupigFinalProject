@@ -42,7 +42,7 @@ h1#about-title {
     font-weight: bold;
     font-family: 'Shonar', serif;
     margin-bottom: 0;  
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 #sidemain-title {
@@ -67,9 +67,13 @@ h1#about-title {
 }
 
 .about-image, .extra-image {
-    width: 250px;
+    width: 220px;
     height: 200px;
     margin-bottom: 5px;
+}
+
+.about-image {
+    margin-left: 10px;
 }
 
 .extra-image {
@@ -121,4 +125,11 @@ h1#about-title {
     border: 2px solid black;
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+    width: 2px;
+    background-color: gray;
+    height: 100%; 
+    margin: 0 10px;
 }
